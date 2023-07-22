@@ -45,8 +45,3 @@ a {
     color: #007bff;
     text-decoration: none;
 }
-
-#main {
-    min-height: 100vh;
-    position:relative;
-}
