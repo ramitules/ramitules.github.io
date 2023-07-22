@@ -3,12 +3,18 @@
 <html lang="es-ar" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>Primer pagina web</title>
+    <title>Scrappify</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Este es un titulo</h1>
-    <p>Este es un parrafo</p>
-    <img src="/linkedin_icon.png" alt="LinkedIn Icon" width="48" height="48">
-    <a href="http://linkedin.com/in/ramitules"> Mi LinkedIn</a>
+    <div class="container">
+        <form>
+            <h1>Inicio de sesión</h1>
+            <input type="text" placeholder="Correo electrónico o nombre de usuario" required>
+            <input type="password" placeholder="Contraseña" required>
+            <input type="submit" value="Iniciar sesión">
+            <p>¿No tienes una cuenta? <a href="#">Regístrate</a></p>
+        </form>
+    </div>
 </body>
 </html>
