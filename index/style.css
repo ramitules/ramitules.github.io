@@ -1,5 +1,5 @@
 body {
-    background-color: #f2f2f2;
+    background-color: #1c1c1c;
     font-family: Arial, sans-serif;
 }
 
@@ -52,21 +52,11 @@ a {
 }
 
 video {
-    position:absolute;
+    position:fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    opacity: 0.9;
     object-fit: cover;
-}
-
-.capa {
-    position:absolute;
-    top: 0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    background:#1c1c1d;
-    opacity:0.5;
-    mix-blend-mode:overlay;
 }
